@@ -1,2 +1,2 @@
-![alt text](/screenshots/1.PNG | width=100 "screenshot")
-![alt text](/screenshots/2.PNG | width=100 "screenshot")
+<img src="/screenshots/1.PNG" width="100">
+<img src="/screenshots/2.PNG" width="100">
