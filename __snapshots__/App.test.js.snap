@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "height": "100%",
+      "margin": 20,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    editable={true}
+    maxLength={40}
+    onChangeText={[Function]}
+    placeholder="Tap to search for customers..."
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "borderWidth": 0,
+        "fontSize": 22,
+        "margin": 30,
+        "textAlign": "center",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "height": "80%",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "grey",
+          "fontSize": 22,
+          "textAlign": "center",
+        }
+      }
+    >
+      Nothing to display.
+    </Text>
+    &gt;
+  </View>
+</View>
+`;

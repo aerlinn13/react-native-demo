@@ -11,5 +11,11 @@
     "android": {
       "package": "com.aerlindir.test"
     }
-   }
+	},
+	"scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
  }

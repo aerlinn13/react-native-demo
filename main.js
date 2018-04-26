@@ -45,7 +45,7 @@ class App extends React.PureComponent {
 			<View style={mainContent}>
 				<TextInput style={textInput} editable = {true} maxLength = {40} placeholder={'Tap to search for customers...'}
 					onChangeText={(text) => {this.filterCustomers(text);}} />
-				{!!filteredData.length ? (
+				{filteredData.length ? (
 					<FlatList
 						data={filteredData}
 						renderItem={({item}) => <View style={listRow}>
